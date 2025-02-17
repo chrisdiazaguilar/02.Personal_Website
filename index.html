@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <!--NAVBAR-->
+    <nav>
+      <div class="left"><a href="/">Chris Diaz</a></div>
+
+      <div class="right">
+        <a href="https://github.com/chrisdiazaguilar" target="_blank" rel="">
+          <i class="fa-brands fa-github"></i>
+          <span>GitHub</span>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/chrisdiaz-techprofessional/"
+          target="_blank"
+          rel=""
+        >
+          <i class="fa-brands fa-linkedin"></i>
+          <span>Linkedin</span>
+        </a>
+        <a href="mailto:chrisdiaz@gmail.com">
+          <i class="fa-solid fa-envelope"></i>
+          <span>Email</span>
+        </a>
+      </div>
+    </nav>
+
+    <main>
+      <!--Section 1: Hero-->
+      <section class="hero-section">
+        <div class="text">
+          <h2>Hi, I'm Chris 👋🏽</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum,
+            reprehenderit dicta! Eveniet aperiam, blanditiis illum eum
+            exercitationem amet ab dolorum suscipit quae ad minima nostrum
+            voluptate nesciunt architecto autem expedita facilis vero laudantium
+            facere sunt quos quidem? Iure, eius voluptatum quia officiis nostrum
+            doloremque aliquid, odio eligendi impedit veritatis magnam?
+          </p>
+
+          <div class="links">
+            <a href="#skills">
+              <i class="fa-solid fa-code"></i>
+              <span>Skills</span>
+            </a>
+
+            <a href="#testimony">
+              <i class="fa-solid fa-pen"></i>
+              <span>testimony</span>
+            </a>
+
+            <a href="#contact">
+              <i class="fa-solid fa-envelope"></i>
+              <span>Contact</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="headshot">
+          <img src="images/HeroChrisDiaz.webp" alt="Chris Diaz" />
+        </div>
+      </section>
+
+      <!--Section 2: Skills-->
+      <section id="skills" class="skills-section">
+        <h2>Skills</h2>
+        <div class="text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum tenetur
+          reiciendis iure soluta odio? Molestiae eius, atque illo libero
+          repellat sint mollitia quas esse officiis autem dolorum debitis amet
+          itaque!
+        </div>
+        <div class="cells">
+          <div class="cell">
+            <img src="images/html-logo.webp" alt="HTML logo" />
+            <span>HTML</span>
+          </div>
+
+          <div class="cell">
+            <img src="images/css-logo.webp" alt="CSS logo" />
+            <span>CSS</span>
+          </div>
+
+          <div class="cell">
+            <img src="images/javascript-logo.webp" alt="JavaScript logo" />
+            <span>JavaScript</span>
+          </div>
+
+          <div class="cell">
+            <img src="images/node-logo.webp" alt="node logo" />
+            <span>Node.js</span>
+          </div>
+
+          <div class="cell">
+            <img src="images/react-logo.webp" alt="react-logo" />
+            <span>React.js</span>
+          </div>
+        </div>
+      </section>
+
+      <!--Section 3: Testimony-->
+      <section id="testimony" class="testimony-section">
+        <h2>Testimony</h2>
+
+        <div class="group">
+          <div class="person-details">
+            <img src="images/testimony-headshot.webp" alt="testimony comment" />
+            <p>John Doe</p>
+            <p>Lorem ipsum dolor sit amet consectetur</p>
+          </div>
+
+          <div class="text">
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit,
+            ad! Fugiat dignissimos, dolores quod quos eligendi architecto, ex
+            ducimus velit voluptate dolore reiciendis vero voluptates? Sunt id
+            error ad nemo.""
+          </div>
+        </div>
+      </section>
+
+      <!--Section 4: Contact-->
+      <section id="contact" class="contact-section">
+        <h2>CONTACT</h2>
+
+        <div class="group">
+          <div class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            quo ipsam recusandae hic, optio tempora voluptates animi est
+            accusamus beatae adipisci commodi repellat expedita dolores
+            blanditiis, ad, nemo laudantium in?
+          </div>
+
+          <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" />
+
+            <label for="email">Email</label>
+            <input type="email" id="email" />
+
+            <label for="message">Message</label>
+            <textarea id="message" cols="30" rows="10"></textarea>
+
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
